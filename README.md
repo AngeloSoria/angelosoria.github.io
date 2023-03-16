@@ -1,5 +1,5 @@
 # Angelo Soria Personal Website
 
-## I'm just bored so I made this
+## My Personal Website
 
 Also this is to show my skill when it comes to Web Development.
