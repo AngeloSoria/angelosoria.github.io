@@ -4,16 +4,21 @@
   color: inherit;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 html::-webkit-scrollbar {
   background-color: transparent;
   /* background-color: #8919d3; */
-  width: 0;
+  width: 5px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: rgb(54, 52, 65);
+  border-radius: 25px;
 }
 
 body {
-  overflow-x: hidden;
   background-color: #cbdce6;
 }
 
@@ -59,7 +64,7 @@ body {
 }
 
 .hr-design-divider::before {
-  content: '\"Wandering the infinite imagination\"';
+  content: '\"Wandering the endless imagination\"';
   font-style: italic;
   display: flex;
   align-items: center;
@@ -78,4 +83,35 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.content {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.content.about_me {
+  background-color: rgb(159, 151, 151);
+}
+
+/* NAV BAR END */
+.nav-bar-end {
+  width: 100%;
+  min-height: 25px;
+  background-color: rgb(255, 0, 0);
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  display: flex;
+  align-items: end;
+  justify-content: right;
+}
+
+.nav-bar-end #scrollToStart {
+  width: 4%;
+  height: 20px;
+  margin-right: 1%;
+  margin-bottom: 1%;
+  border-radius: 100%;
+  border: none;
 }

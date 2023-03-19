@@ -16,8 +16,8 @@
         </div>
     </div>
     <div class="hr-design-divider"></div>
-    <div class="content-1">
-        <p>text</p>
+    <div class="content about_me">
+        <h1 class="title">About Me</h1>
         <p>text</p>
         <p>text</p>
         <p>text</p>
@@ -25,5 +25,21 @@
         <p>text</p>
         <p>text</p>
     </div>
+    <nav class="nav-bar-end">
+        <button id="scrollToStart"></button>
+    </nav>
 </body>
+<script>
+    var a = document.getElementById("eee");
+
+    function scrollme() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        })
+        console.log("does it work?")
+    }
+
+    a.addEventListener('click', scrollme)
+</script>
 </html>
