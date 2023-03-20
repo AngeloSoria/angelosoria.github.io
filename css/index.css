@@ -98,7 +98,7 @@ body {
 .nav-bar-end {
   width: 100%;
   min-height: 25px;
-  background-color: rgb(255, 0, 0);
+  background-color: rgba(255, 0, 0, 0);
   bottom: 0;
   left: 0;
   position: fixed;
@@ -108,10 +108,15 @@ body {
 }
 
 .nav-bar-end #scrollToStart {
-  width: 4%;
-  height: 20px;
+  padding: 2%;
   margin-right: 1%;
   margin-bottom: 1%;
   border-radius: 100%;
   border: none;
+  background-color: #0984e3;
+  position: relative;
+}
+
+.nav-bar-end #scrollToStart .arrow-up::before {
+  content: "\f";
 }
