@@ -5,9 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/index.css">
-    <link href="/your-path-to-uicons/css/uicons-rounded-regular.css" rel="stylesheet">
-  <link href="/your-path-to-uicons/css/uicons-rounded-bold.css" rel="stylesheet">
-  <link href="/your-path-to-uicons/css/uicons-rounded-solid.css" rel="stylesheet">
     <title>Angelo Soria - Personal Website</title>
 </head>
 <body>
@@ -28,23 +25,9 @@
         <p>text</p>
         <p>text</p>
     </div>
-    <nav class="nav-bar-end">
-        <a id="scrollToStart">
-            <span class="arrow-up"></span>
-        </a>
-    </nav>
+    <a id="scrollToTop" class="hideScrollToTop">
+        <span class="arrow-up"></span>
+    </a>
 </body>
-<script>
-    var a = document.getElementById("eee");
-
-    function scrollme() {
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        })
-        console.log("does it work?")
-    }
-
-    a.addEventListener('click', scrollme)
-</script>
+<script src="/js/web-events.js"></script>
 </html>
