@@ -26,7 +26,7 @@ scrollToTop.addEventListener('click', () => {
 
 window.addEventListener('scroll', function () {
     var scrollPosition = window.scrollY;
-    if (scrollPosition > 500) {
+    if (scrollPosition > 700) {
         modifyHider('show')
     } else {
         modifyHider('hide')
