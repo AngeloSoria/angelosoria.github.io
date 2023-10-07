@@ -1,5 +1,9 @@
-# Angelo Soria Personal Website
+## <center>PERSONAL WEBSITE PORTFOLIO</center>
 
-## My Personal Website
+<hr>
 
-Also this is to show my skill when it comes to Web Development.
+<center>
+Good day, I am <b>Angelo Soria</b> and currently setting up my website portfolio with the help of <i>Github</i>, thanks for its free domain, as a student helps me utilize and show off my skills and experiences onto the public.
+<br><br>
+I'm still adding things up to my portfolio, so, please bear with me. :D
+</center>
