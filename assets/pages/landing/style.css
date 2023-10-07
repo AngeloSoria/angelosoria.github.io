@@ -1,0 +1,90 @@
+@import url('/assets/css/root.css');
+
+* {
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #cbdce6;
+}
+
+.landing-panel {
+  position: relative;
+}
+
+.landing-panel .main-image {
+  width: 115%;
+}
+
+.landing-panel .text-area {
+  background-color: rgba(155, 32, 32, 0);
+  width: auto;
+  height: auto;
+  display: block;
+  position: absolute;
+  top: 16vw;
+  right: 8vw;
+}
+
+.landing-panel .text-area .title {
+  display: block;
+  font-family: var(--ff-fpaint);
+  color: var(--grey-500);
+  font-size: 5.5vw;
+  font-weight: bold;
+}
+
+.landing-panel .text-area .subtitle {
+  display: block;
+  font-family: var(--ff-poppins);
+  font-size: 1.8vw;
+  color: var(--grey-500);
+}
+
+.hr-design-divider {
+  width: 100%;
+  height: 25vw;
+  background-color: rgba(255, 0, 0, 0);
+  position: relative;
+  margin-top: -8vw;
+}
+
+.hr-design-divider::before {
+  content: '\"Wandering the endless imagination\"';
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--ff-poppins);
+  color: white;
+  font-size: 2.5vw;
+
+  background-color: rgba(161, 112, 22, 0);
+  background-image: url('/assets/images/hr-layer.png');
+  background-size: 110% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 25vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.content {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.content.about_me {
+  background-color: rgb(159, 151, 151);
+}
+
+.navfoot {
+  width: 100%;
+  height: 10vw;
+  background-color: red;
+}
