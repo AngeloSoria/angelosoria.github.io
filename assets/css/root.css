@@ -2,7 +2,7 @@
 
 html::-webkit-scrollbar {
     background-color: transparent;
-    width: 0.35rem;
+    width: 0.5rem;
 }
 
 html::-webkit-scrollbar-thumb {
