@@ -1,5 +1,3 @@
-
-
 function toggleScroller() {
     var scrollPosition = window.scrollY;
     if (scrollPosition > 700) {
