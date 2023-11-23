@@ -25,6 +25,9 @@ html::-webkit-scrollbar-thumb {
     --grey-500: rgb(54 52 65);
     --grey-400: rgb(61, 59, 71);
     --grey-300: rgb(73, 70, 86);
+
+    /* images */
+    --hr-layer: url('https://lh3.googleusercontent.com/drive-viewer/AK7aPaC7au_245FCa_JX6qlRyAjbnpPL_EeNAGPmhYvAI4O-SdUng6WNltInZIuijnfUJ75CV67-DLia7ckF_kXhBBbU3Sxw=s1600');
 }
 
 
